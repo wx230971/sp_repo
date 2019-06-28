@@ -8,9 +8,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Item {
-	//缂栧彿AAA
+	//编号AAA
 	private Integer id;
 	private String name;
 	private Integer number;
-
+	//大数据库的哈手机客
+       //hjdkasjk
 }
