@@ -12,4 +12,5 @@ public class Item {
 	private Integer id;
 	private String name;
 	private Integer number;
+	//大数据库的哈手机客
 }
