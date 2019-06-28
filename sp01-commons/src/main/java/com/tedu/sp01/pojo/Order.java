@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Order {
+public class Order<Item> {
 	private String id;
 	private User user;
 	private List<Item> items;
