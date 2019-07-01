@@ -15,7 +15,9 @@ eureka:
 #    register-with-eureka: false    #不向自身注册
 #    fetch-registry: false    #不从自身拉取注册信息
     #lease-eexpiration-duration-in-seconds: 90   最后一次心跳后，间隔多久认定微服务不可用，默认90
-    
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}  
   
 ---
 spring:
