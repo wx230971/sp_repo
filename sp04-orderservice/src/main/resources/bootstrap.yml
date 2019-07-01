@@ -7,8 +7,8 @@ spring:
       name: order-service
       profile: dev
   inetutils:
-    ignored-interfaces:
-       - VM.*      
+     ignored-interfaces:
+       - VM.*     
 eureka:
   client:
     service-url:
